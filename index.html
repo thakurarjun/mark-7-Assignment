@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navi Translator</title>
+    <link href="style.css" rel="stylesheet">
+    <style>
+        textarea {
+            width: 100%;
+            height: 10vh;
+            display: block;
+            margin: 1rem;
+            padding: 1rem;
+        }
+
+        #output {
+            border: 1px solid black;
+            height: 10vh;
+            width: 50%;
+            margin: 1rem 20rem;
+            padding: 1rem;
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="container-center navigation">
+        <h1>NAVI TRANSLATOR</h1>
+        <textarea id="txt-input"
+            placeholder="put your message here which you want to convert to navi(avatar's movie) language"></textarea>
+    </nav>
+    <br>
+    <div>
+        <div class="container-center"><button id="btn-translate"><strong>Translate To Navi</strong></button>
+        </div>
+        <br>
+        <section class="container-center"><strong>OUTPUT WILL COME HERE </strong> 👇</section>
+        <br>
+        <div id="output"></div>
+        <footer class="footer">
+            <div class="container-center navigation">
+                <div>
+                    <h2><em>About</em></h2>
+                </div>
+                <p><em>Are you a avatar's movie fan? Did you know that the Navi is a constructed language spoken by the Navi people in the fictional world Pandora in JamesCameron's blockbuster movie Avatar. Use the
+                        translator to convert your text from English to Navi language.</p></em>
+            </div>
+        </footer>
+        <script src="index.js" type="text/javascript"></script>
+    </div>
+
+</body>
+
+</html>
