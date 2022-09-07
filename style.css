@@ -1,6 +1,14 @@
 :root {
     --primary-color: #5e41c9;
   }
+button {
+  padding: 10px;
+}
+  h1 {
+    font-size: 40px;
+    font-style: oblique;
+    font-weight: bold;
+  }
 .container-center {
     max-width: 800px;
     margin: auto;
